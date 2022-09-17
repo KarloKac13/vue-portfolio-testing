@@ -85,6 +85,8 @@ export default {
         data.email.includes("@") &&
         data.inquiry !== ""
       ) {
+
+        // Faked submission 
         document.getElementById("submitted").innerText =
           "Form was succesfully submited!";
         document.getElementById("redirect").innerText =
